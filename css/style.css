@@ -107,7 +107,7 @@ nav {
     rgba(241, 68, 174, 0.03) 100%
   );
   padding: 148px 200px 148px 150px;
-  background-position: center;
+  background-size: cover;
 }
 .banner-title {
   color: #0b0223;
@@ -310,6 +310,10 @@ nav {
 /* Responsive Styles  */
 /* Mobile Screen  */
 @media screen and (max-width: 576px) {
+    body {
+        width: 100%;
+        margin-left: 170px ;
+    }
   nav {
     background: #fff;
     box-shadow: none;
@@ -318,9 +322,12 @@ nav {
   .nav-container {
     flex-direction: column;
     gap: 25px;
+    padding-left: 100px;
+
   }
   .nav-items-container {
     flex-direction: column;
+
   }
   .banner-container {
     flex-direction: column;
@@ -328,11 +335,11 @@ nav {
     justify-content: center;
   }
   .banner-des-container {
+    
     width: 600px;
-    margin-left: 80px;
-  }
-  .banner-title {
-    font-size: 30px;
+    margin: 0 auto;
+    padding-left: 120px;
+ 
   }
   .goat {
     font-size: 50px;
@@ -346,23 +353,32 @@ nav {
     flex-direction: column;
     align-items: center;
     gap: 30px;
+
   }
   .funny-videos {
     margin-left: 85px;
+    padding-left: 120px;
+
   }
   .play-games-container {
     flex-direction: column-reverse;
-    justify-content: center;
-    overflow: hidden;
+    width: 100%;
   }
-  .play-games-img-container {
+  .play-games-des {
+    padding-left: 200px;
+  }
+   .play-games-img-container {
+    width: 50rem;
+    margin-left: 500px;
+    margin-top: 30px;
+    padding-right: 0;
+    overflow: hidden;
+
   }
   .play-games-img {
-    width: 390px;
+    width: 490px;
     height: 350px;
     border-radius: 8px;
-    margin-left: 80px;
-    margin-top: 50px;
   }
   .small-img-container {
     position: relative;
@@ -371,9 +387,24 @@ nav {
   }
   .small-img {
     height: 220px;
+    width: 200px;
   }
-  .play-games-des {
-    margin-left: 150px;
+ /*! Game Types Section Styles  */
+  .game-types-container {
+    
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 45px;
+  }
+  .games:nth-child(n + 6) {
+    margin-left: 0px;
+  }
+  .games {
+    gap: 10px;
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    background: #f7f3f3;
+    padding: 5px;
   }
 }
 
@@ -441,5 +472,22 @@ nav {
   }
   .play-games-des {
     margin-left: 50px;
+  }
+  .game-types-container {
+    
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 90px;
+    margin-top: px;
+  }
+  .games:nth-child(n + 6) {
+    margin-left: 0px;
+  }
+  .games {
+    gap: 10px;
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    background: #f7f3f3;
+    padding: 5px;
   }
 }
