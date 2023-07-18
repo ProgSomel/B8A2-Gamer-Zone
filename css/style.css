@@ -11,9 +11,24 @@ body {
 .primary-color {
   color: #ff42a5;
 }
+.bg-primary {
+  background-color: #ff42a5;
+}
+.bg-secondary {
+    background: #4EC5F7;
+}
+.btn-container {
+    margin-left: 10px;
+}
 .btn-primary {
   border-radius: 48px;
-  padding: 21px 40px;
+  padding: 11px 20px;
+  color: white;
+  border: none;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 /*! Navbar Section Styles  */
@@ -25,7 +40,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
 }
 .logo-container {
@@ -79,46 +94,72 @@ nav {
 .banner-container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  gap: 100px;
   background: #fff;
-  margin-top: 10px;
-  max-height: 600px;
 }
 .banner-des-container {
   height: 600px;
-  background: url("../images/Group 14.png");
-  fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+  width: 900px;
+  background-image: url("../images/Group 14.png");
+  fill: linear-gradient(
+    223deg,
+    rgba(140, 87, 238, 0.03) 0%,
+    rgba(241, 68, 174, 0.03) 100%
+  );
   padding: 148px 200px 148px 150px;
-  background-size: cover;
+  background-position: center;
 }
 .banner-title {
   color: #0b0223;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 600;
   text-transform: uppercase;
+  padding-left: 60px;
 }
 .goat {
-  font-size: 95px;
+  font-size: 85px;
   font-weight: 800;
   text-transform: uppercase;
+  padding-left: 60px;
+
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .banner-des-container div {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 60px;
 }
 .banner-img-container {
   height: 100%;
-  width: 800px;
+  width: 100%;
 }
 .banner-img {
-    height: 650px;
-    
+  height: 650px;
+  padding-top: 25px;
+  width: 590px;
+}
+/*! Funny Videos Section  */
+.funny-videos {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+}
+.funny-videos-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.card {
+  width: 342px;
+  height: 400px;
+  border-radius: 16px;
 }
 
 /* Responsive Styles  */
@@ -127,6 +168,7 @@ nav {
   nav {
     background: #fff;
     box-shadow: none;
+    margin-left: 100px;
   }
   .nav-container {
     flex-direction: column;
@@ -134,6 +176,26 @@ nav {
   }
   .nav-items-container {
     flex-direction: column;
+  }
+  .banner-container {
+    flex-direction: column;
+    margin-top: 35px;
+    justify-content: center;
+  }
+  .banner-des-container {
+    width: 600px;
+    margin-left: 80px;
+  }
+  .banner-title {
+    font-size: 30px;
+  }
+  .goat {
+    font-size: 50px;
+    font-weight: 800;
+  }
+  .banner-img-container {
+    width: 100%;
+    text-align: center;
   }
 }
 
@@ -149,5 +211,26 @@ nav {
   }
   .nav-items-container {
     flex-direction: column;
+  }
+  .banner-container {
+    flex-direction: column;
+    margin-top: 35px;
+    justify-content: center;
+    gap: 5px;
+  }
+  .banner-des-container {
+    width: 100%;
+    margin-left: 80px;
+  }
+  .banner-title {
+    font-size: 30px;
+  }
+  .goat {
+    font-size: 70px;
+    font-weight: 800;
+  }
+  .banner-img-container {
+    width: 100%;
+    text-align: center;
   }
 }
