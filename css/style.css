@@ -74,3 +74,37 @@ nav {
   height: 24px;
   padding-top: 10px;
 }
+
+/* Responsive Styles  */
+/* Mobile Screen  */
+@media screen and (max-width: 576px) {
+    nav {
+        background: #fff;
+        box-shadow: none;
+      }
+    .nav-container {
+        flex-direction: column;
+        gap: 25px;
+      }
+      .nav-items-container {
+        flex-direction: column;
+      }
+
+}
+
+/* Tablet Screen  */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    nav {
+        background: #fff;
+        box-shadow: none;
+      }
+    .nav-container {
+        flex-direction: column;
+        gap: 25px;
+      }
+      .nav-items-container {
+        flex-direction: column;
+      }
+
+}
