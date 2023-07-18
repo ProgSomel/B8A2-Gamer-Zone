@@ -236,11 +236,11 @@ nav {
 }
 /*! Play Online games Section  */
 .play-games-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 100px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
 .play-games-des h2 {
   color: #0b0223;
   font-size: 48px;
@@ -248,9 +248,9 @@ nav {
 }
 
 .play-games-img {
-    width: 590px;
-    height: 450px;
-    border-radius: 8px;
+  width: 590px;
+  height: 450px;
+  border-radius: 8px;
 }
 .play-games-des h2 span {
   font-size: 48px;
@@ -261,19 +261,51 @@ nav {
   -webkit-text-fill-color: transparent;
 }
 .small-img-container {
-    position: relative;
-    left: 500px;
-    bottom: 150px;
+  position: relative;
+  left: 500px;
+  bottom: 150px;
 }
 .small-img {
-    height: 220px;
+  height: 220px;
 }
-
-
-
-
-
-
+/*! Games Section Styles  */
+.game-types-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 50px;
+  margin-left: 100px;
+  column-gap: 0;
+}
+.games {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  grid-column: span 1;
+  width: 200px;
+  height: 60px;
+  border-radius: 50px;
+  background: #f7f3f3;
+  padding: 10px;
+}
+.games:nth-child(n + 6) {
+  grid-column: span 1;
+  margin-left: 100px;
+}
+.games:hover {
+    border: 1px solid red;
+    background-color: #FFF;
+}
+.games:hover p {
+    color: red;
+}
+.games p {
+  color: #0b0223;
+  font-size: 15px;
+  font-weight: 600;
+}
+.games img {
+    width: 50px;
+}
 
 /* Responsive Styles  */
 /* Mobile Screen  */
@@ -331,19 +363,18 @@ nav {
     border-radius: 8px;
     margin-left: 80px;
     margin-top: 50px;
-
-}
-.small-img-container {
+  }
+  .small-img-container {
     position: relative;
     left: 350px;
     bottom: 150px;
-}
-.small-img {
+  }
+  .small-img {
     height: 220px;
-}
-.play-games-des {
+  }
+  .play-games-des {
     margin-left: 150px;
-}
+  }
 }
 
 /* Tablet Screen  */
@@ -399,17 +430,16 @@ nav {
     width: 100%;
     border-radius: 8px;
     margin-top: 50px;
-
-}
-.small-img-container {
+  }
+  .small-img-container {
     position: relative;
     left: 350px;
     bottom: 150px;
-}
-.small-img {
+  }
+  .small-img {
     height: 220px;
-}
-.play-games-des {
+  }
+  .play-games-des {
     margin-left: 50px;
-}
+  }
 }
