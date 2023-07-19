@@ -387,20 +387,20 @@ footer {
   .banner-container {
     flex-direction: column;
     margin-top: 35px;
-    justify-content: center;
   }
   .banner-des-container {
-    width: 600px;
-    margin: 0 auto;
-    padding-left: 120px;
+    width: 100%;
+    margin-left: 200px;
   }
   .goat {
     font-size: 50px;
     font-weight: 800;
   }
-  .banner-img-container {
+
+  
+  .banner-img {
     width: 100%;
-    text-align: center;
+    padding-left: 200px;
   }
   .funny-videos-container {
     flex-direction: column;
@@ -442,13 +442,12 @@ footer {
   /*! Game Types Section Styles  */
   .game-types-container {
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 45px;
+    margin-left: 150px;
   }
   .games:nth-child(n + 6) {
     margin-left: 0px;
   }
   .games {
-    gap: 10px;
     width: 150px;
     height: 60px;
     border-radius: 50px;
