@@ -95,10 +95,13 @@ nav {
 .banner-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  gap: 200px;
   background: #fff;
 }
 .banner-des-container {
   height: 600px;
+  padding: 150px;
   background-image: url("../images/Group 14.png");
   fill: linear-gradient(
     223deg,
