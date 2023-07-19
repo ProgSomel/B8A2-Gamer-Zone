@@ -95,13 +95,13 @@ nav {
 .banner-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 200px;
+  gap: 68px;
   background: #fff;
 }
 .banner-des-container {
-  height: 600px;
-  padding: 150px;
+  width: 901px;
+  height: 700px;
+  padding: 148px 300px 148px 244px;
   background-image: url("../images/Group 14.png");
   fill: linear-gradient(
     223deg,
@@ -134,13 +134,14 @@ nav {
   margin-bottom: 10px;
 }
 .banner-img-container {
-  height: 100%;
-  width: 100%;
+  width: 711px;
+  height: 700px;
+
+
 }
 .banner-img {
-  height: 650px;
-  padding-top: 25px;
-  width: 590px;
+  width: 70%;
+  height: 100%;
 }
 /*! Funny Videos Section  */
 .funny-videos {
