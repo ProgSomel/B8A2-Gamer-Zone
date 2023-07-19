@@ -99,7 +99,7 @@ nav {
   background: #fff;
 }
 .banner-des-container {
-  width: 960px;
+  width: 850px;
   height: 700px;
   padding: 148px 80px 148px 100px;
   background-image: url("../images/Group 14.png");
@@ -109,7 +109,6 @@ nav {
     rgba(241, 68, 174, 0.03) 100%
   );
   background-size: cover;
-  background-position: center;
 
 }
 .banner-title {
@@ -135,12 +134,12 @@ nav {
   margin-bottom: 10px;
 }
 .banner-img-container {
-  width: 650px;
+  width: 700px;
   height: 700px;
 
 }
 .banner-img {
-  width: 70%;
+  width: 80%;
   height: 100%;
 }
 /*! Funny Videos Section  */
@@ -370,7 +369,7 @@ footer {
 @media screen and (max-width: 576px) {
   header, main {
     width: 100%;
-    margin-left: 170px;
+    margin-left: 200px;
   }
   nav {
     background: #fff;
