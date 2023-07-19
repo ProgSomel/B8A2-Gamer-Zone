@@ -95,11 +95,11 @@ nav {
 .banner-container {
   display: flex;
   align-items: center;
-  gap: 68px;
+  gap: 100px;
   background: #fff;
 }
 .banner-des-container {
-  width: 701px;
+  width: 900px;
   height: 700px;
   padding: 148px 100px 148px 80px;
   background-image: url("../images/Group 14.png");
@@ -134,7 +134,7 @@ nav {
   margin-bottom: 10px;
 }
 .banner-img-container {
-  width: 800px;
+  width: 750px;
   height: 700px;
 
 
