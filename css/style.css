@@ -102,12 +102,8 @@ nav {
   width: 850px;
   height: 700px;
   padding: 148px 80px 148px 100px;
-  background-image: url("../images/Group 14.png");
-  fill: linear-gradient(
-    223deg,
-    rgba(140, 87, 238, 0.03) 0%,
-    rgba(241, 68, 174, 0.03) 100%
-  );
+  background: url("../images/Group 14.png");
+  fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
   background-size: cover;
 
 }
@@ -183,6 +179,7 @@ nav {
   height: 300px;
   border-radius: 8px;
   overflow: hidden;
+  border: none;
 }
 .card-1 {
   background-image: url("../images/Rectangle\ 4.png");
@@ -195,6 +192,7 @@ nav {
 .card-3 {
   background-image: url("../images/Rectangle\ 7.png");
   background-size: cover;
+  border: none;
 }
 .card-4 {
   background-image: url("../images/Rectangle\ 6.png");
@@ -212,7 +210,9 @@ nav {
   justify-content: center;
   background-color: rgba(10, 10, 10, 0.6); /* Blackish overlay with opacity */
   opacity: 0; /* Initially hidden */
+  border: none;
   transition: opacity 0.3s ease;
+  transition: border 0.3s ease;
 }
 
 /* Styles for the play button */
@@ -233,6 +233,7 @@ nav {
 /* Show overlay on hover */
 .card:hover .card-overlay {
   opacity: 1;
+  border: 4px solid red;
 }
 /*! Play Online games Section  */
 .play-games-container {
@@ -341,6 +342,9 @@ footer {
   justify-content: center;
   margin-top: 30px;
   gap: 10px;
+}
+.social-logo-container svg {
+    cursor: pointer;
 }
 .policy-container {
   display: flex;
