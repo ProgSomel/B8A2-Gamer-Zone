@@ -99,9 +99,9 @@ nav {
   background: #fff;
 }
 .banner-des-container {
-  width: 901px;
+  width: 801px;
   height: 700px;
-  padding: 148px 200px 148px 200px;
+  padding: 148px 100px 148px 100px;
   background-image: url("../images/Group 14.png");
   fill: linear-gradient(
     223deg,
