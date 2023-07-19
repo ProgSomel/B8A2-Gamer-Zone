@@ -96,19 +96,18 @@ nav {
   display: flex;
   align-items: center;
   background: #fff;
-  max-width: 1920px;
+  justify-content: space-around;
 }
 .banner-des-container {
   height: 600px;
-  width: 900px;
   background-image: url("../images/Group 14.png");
   fill: linear-gradient(
     223deg,
     rgba(140, 87, 238, 0.03) 0%,
     rgba(241, 68, 174, 0.03) 100%
   );
-  padding: 148px 200px 148px 150px;
   background-size: cover;
+
 }
 .banner-title {
   color: #0b0223;
